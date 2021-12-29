@@ -1,0 +1,5 @@
+title=Starting Over
+url=https://patrickbucher.github.io/starting-over/
+description=Let’s make some progress again.
+language=en
+author=Patrick Bucher, patrick.bucher87@gmail.com

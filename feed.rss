@@ -1,0 +1,1314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<atom:link href="https://patrickbucher.github.io/starting-over/feed.rss" rel="self" type="application/rss+xml" />
+<title>Starting Over</title>
+<link>https://patrickbucher.github.io/starting-over/</link>
+<description>Let’s make some progress again.</description>
+<language>en</language>
+<copyright>Patrick Bucher, patrick.bucher87@gmail.com</copyright>
+<pubDate>Tue, 15 Aug 2017 17:30:02 +0200</pubDate>
+<item>
+<pubDate>Sat, 11 Feb 2017 00:00:00 +0100</pubDate>
+<title>015: After a Break</title>
+<link>https://patrickbucher.github.io/starting-over/#015</link>
+<guid>https://patrickbucher.github.io/starting-over/#015</guid>
+<description><![CDATA[
+<pre>
+## 015: After a Break
+
+I didn't write anything for more than a month. The reason is that I didn't work
+on my personal projects during that time. I had [exams](#012) to study for,
+which didn't leave much time (and will power) for other things. The last exam
+was on February 1st, and I already had ideas what I wanted to achieve in
+February. But instead I relaxed for a couple of days and decided to not set any
+goals for February. The next term begins in a bit more than one week, so it's
+good to not have too many side projects with goals and deadlines at the moment.
+
+However, I started reading and working through the book _Learn Git in a
+Month of
+Lunches_. I thought to write a short summary for every chapter on this
+page, but
+instead I'm putting together [one document about
+`git`](https://github.com/patrickbucher/docs/tree/master/git) as I'm working
+through the book. This page is not the right container for writing long
+documentation, or at least not for looking up information, which is the
+point of
+technical documentation. This page is supposed to document general insights
+about my learning process.
+
+One thing I did very well as a very young IT apprentice and student was writing
+documentation. When I was learning Visual Basic by working through a book,
+I put
+together a Visual Basic tutorial besides. We were also allowed to use
+documentation for the final exams in subjects like programming, networking
+and data
+bases. Five friends joined me in the effort to summarize everything we
+needed to
+know for those exams. I coordinated the whole process, and at the end of it, we
+not only had a great reference to pass the exams easily, but during the process
+I learned so much that I did _not even once_ need to look up information during
+the final exams. Learning by summarizing was my approach.
+
+Unfortunately, I abandoned that approach some years ago. It's probably due
+to my
+perfectionism and compulsive orderliness (which got worse in recent years) that
+made it more difficult to finish such projects. Instead of succinctly
+summarizing the things I learned, I tried to write documentation to be
+understood by somebody totally alien to the subject. That's what the books I'm
+reading are for. It's not the purpose of the summaries I write about
+them. I was
+trying to write for my self that didn't read the book yet, but I should be
+writing for my self that has read and understood the book and just needs
+a quick
+refresh of the knowledge already acquired.
+
+Fine prose and flawless grammar are indispensable in order to explain things,
+but they are not the foremost quality feature for a personal reference
+document.
+This is not an excuse for sloppy style, bad grammar and bad spelling! I only
+should spend less time trying to cast every bit of information into a nicely
+written paragraph, but instead try to reduce prose and optimize the text for
+fast lookup. Personal documentation is not for reading, but for looking things
+up--and a vehicle for the learning process.
+
+Dropping perfectionism means not trying to write a conclusive summary about a
+subject or a book, but to just compile its essential information. I also no
+longer will try to create perfectly looking documents, but instead try to be
+more productive. So I'll write my documents in `markdown` syntax and
+export them
+to the PDF and HTML format using `pandoc`. Those documents won't look as
+good as
+carefully hand-crafted LaTeX documents, but still better than most of the
+documentation floating around in some software companies that use Microsoft
+Word
+for technical documentation. (I've both seen such companies and documents and
+miss neither.)
+
+So my next goal is to work through _Learn Git in a Month of Lunches_ and
+write a
+personal summary on `git` (and not about the book).
+
+PS: I wasn't totally unproductive in February. I finally made the effort to
+change most of my passwords and now use `pass` as a password manager. It's
+not a
+great achievement, but proofs the point that it's possible to abandon
+bad habits
+(and weak passwords).
+</pre>
+]]></description>
+</item>
+<item>
+<pubDate>Sun, 1 Jan 2017 00:00:00 +0100</pubDate>
+<title>014: After the Prelude</title>
+<link>https://patrickbucher.github.io/starting-over/#014</link>
+<guid>https://patrickbucher.github.io/starting-over/#014</guid>
+<description><![CDATA[
+<pre>
+## 014: After the Prelude
+
+More than one month ago, I [decided](#002) to focus on three things in
+December:
+
+- Literature: read _Homo Faber_ by Max Frisch
+- Programming: get to know the `grep`-command and its options
+- Russian: learn the infinitive aspect pairs of the most common 50 Russian
+verbs
+
+I've read _Homo Faber_ once. I didn't care much about the novel until I once
+read a couple of pages directly [before falling asleep](#012). After waking up,
+I've been thinking about those pages intensely. However, I didn't re-read
+anything, which means that the novel didn't excite me. So I didn't read deeply,
+just superficially. I succeeded formally, but don't feel very good about it.
+Maybe I've picked the wrong novel.
+
+I didn't use `grep` a lot. But I've learned a good deal about regular
+expressions
+and the tools that make use of it, such as `sed` and `awk`. I've also created
+an RSS
+feed, which taught me some important lessons about the `&lt;pre&gt;` tag and XML's
+`CDATA`. I've also written articles on `grep`: about its [matchers](#004) and
+its [most important options](#013). I'm now feeling comfortable using `grep`.
+
+I've spent little time learning the infinitive aspect pairs of the 50 most
+common Russian verbs. I already knew a lot of them before, but nonetheless, I
+still cannot write all of them correctly in one sitting when learning them with
+flash cards. Creating the flash cards will be important to systematize my
+approach of verb learning (by putting them into classes and groups). Working on
+my [translation
+exercise](https://patrickbucher.github.io/russisch/50-russkich-tekstov.html)
+maybe would have had the better effect on my motivation.
+
+How am I going to continue? In January, I'll [study for my exams](#011). So I
+won't set any other goals. But I want to try out a new approach for constant
+improvements.
+
+### Asking Questions
+
+Whenever a question or a little problem comes to my mind, I'll write it down in
+a tiny A7 notebook, which I'll have to carry around with me all the time. If I
+don't know how to translate a word to Russian, how to handle something using a
+shell script or have problems remembering details about a novel--I'll
+write that
+down _as a question_ and won't look it up on my smartphone. Whenever I have an
+idle moment at home, I'll pick up that little notebook and start to work on one
+question. Maybe I'll also write something on this page about the answer I've
+found. How could this be helpful?
+
+First, I'll no longer forget to solve little problems that bug me. It's very
+annoying to stumble upon a problem, being unable to solve it in that moment,
+forgetting about it and stumble upon _the same problem again_ afterwards.
+
+Second, It will teach me to _ask questions_ rather than walking around
+with lots
+of _issues_ and _problems_ in my mind. What's the difference?
+
+- _Problem_: I don't know how to do _X_ in `git`. I really don't know
+`git` very
+  well. I really need to learn `git`. I don't have time to learn `git` now,
+  because I have to sit here at the university and listen to this boring stuff,
+  I'm already getting a headache...
+- _Question_: How can I do _X_ in `git`? It must be possible somehow. Of course
+  somebody else had a similar problem before. Should I ask a friend or look for
+  a solution on _Stack Overflow_? Maybe I should open a thread on my own. Or
+  maybe better look it up in a book or in the manpages?
+
+Even though the term _problem_ isn't negatively connoted in the language of
+engineers and programmers, it always points to some kind of _lack_;
+to something
+that isn't good or that is missing. The term _question_, however, always _asks_
+for an answer or a solution. It implies that there _is_ an answer or solution,
+which just has to be found.
+
+So I'll be trying to find many questions--and answers to them.
+</pre>
+]]></description>
+</item>
+<item>
+<pubDate>Tue, 27 Dec 2016 00:00:00 +0100</pubDate>
+<title>013: Some `grep` Options</title>
+<link>https://patrickbucher.github.io/starting-over/#013</link>
+<guid>https://patrickbucher.github.io/starting-over/#013</guid>
+<description><![CDATA[
+<pre>
+## 013: Some `grep` Options
+
+In order to demonstrate some `grep` options, I'll be working with this test
+file `test.txt`:
+
+    This file is a test file.
+    I use it to work with grep.
+    It has three lines and nothing else.
+
+To match all the letters _i_, `grep` can be invoked like this:
+
+    $ grep 'i' test.txt
+    This file is a test file.
+    I use it to work with grep.
+    It has three lines and nothing else.
+
+The whole file `test.txt` will be printed as a result, because every line
+contains the small letter _i_, and grep outputs the whole line of a match by
+default.
+
+Using the `-o` option (`--only-matching`), only the matching parts are printed,
+which are a couple of _i_s:
+
+    $ grep -o 'i' test.txt
+    i
+    i
+    i
+    i
+    i
+    i
+    i
+    i
+
+Adding the `-n` option (`--line-number`) also outputs the line number of
+the matched _i_s:
+
+    $ grep -no 'i' test.txt
+    1:i
+    1:i
+    1:i
+    1:i
+    2:i
+    2:i
+    3:i
+    3:i
+
+The `-c` option (`--count`) counts the number of matches and outputs a sum
+instead of the matches.
+
+    $ grep -c 'i' test.txt
+    3
+
+Using the `-c` option together with `-n` or `-o` is pointless.
+
+The capital letter _T_ only matches for one of the three lines:
+
+    $ grep 'T' test.txt
+    This file is a test file.
+
+The `-i` option (`--ignore-case`), however, ignores case distinctions and hence
+prints all three lines, which all contain the letter _t_:
+
+    $ grep -i 'T' test.txt
+    This file is a test file.
+    I use it to work with grep.
+    It has three lines and nothing else.
+
+The effect can also be demonstrated when using `-i` and `-c` in combination:
+
+    $ grep -c 'T' test.txt
+    1
+    $ grep -ic 'T' test.txt
+    3
+
+The `-v` option (`--invert-match`) inverts the sense of matching. Grepping for
+_T_ in `test.txt` again with that option shows the two other lines that _don't_
+contain a _T_:
+
+    $ grep -v 'T' test.txt
+    I use it to work with grep.
+    It has three lines and nothing else.
+
+This option can also be combined with `-c`, which gives the number of lines
+_not_ containing a capital letter _T_:
+
+    $ grep -cv 'T' test.txt
+    2
+
+The `-r` option (`--recursive`) makes `grep` suitable not just for files
+(or keyboard input),
+but for entire directories, which are processed recursively. If I wanted
+to know
+how often I already mentioned the novel _Homo Faber_ in my diary, I could
+simply
+type:
+
+    $ grep -cr 'Homo Faber' articles/
+    articles/006.md:0
+    articles/012.md:3
+    articles/013.md:2
+    articles/008.md:0
+    articles/010.md:2
+    articles/011.md:1
+    articles/007.md:0
+    articles/009.md:2
+    articles/001.md:0
+    articles/002.md:1
+    articles/005.md:0
+    articles/004.md:0
+    articles/.013.md.swp:2
+    articles/003.md:0
+
+This tells me how often I mentioned _Homo Faber_ _by file_. If I'm
+interested in
+a grand total instead, I'd better use `grep` in combination with `cat`:
+
+    $ cat articles/* | grep -c 'Homo Faber'
+    11
+
+The attentive reader might already have noticed that the two matches from the
+`vim` swap file `.013.md.swp` are not counted using the second command. It will
+be an interesting exercise for me to find out why this is the case.
+
+As we have seen, `grep` only prints the file name when it is working on more
+than one file at a time. This, however, is the default behaviour, it could be
+overridden using the `-h` option (`--no-filename`) or the `-H` option
+(`--with-filename`), respectively:
+
+    $ grep -H 'i' test.txt
+    test.txt:This file is a test file.
+    test.txt:I use it to work with grep.
+    test.txt:It has three lines and nothing else.
+
+    $ grep -hcr 'Homo Faber' articles/
+    0
+    3
+    5
+    0
+    2
+    1
+    0
+    2
+    0
+    1
+    0
+    0
+    5
+    0
+
+I still have to find a use-case for those two options. Omitting the file names
+might come in handy in the latter example when trying to sum up a grand
+total of
+occurrences.
+
+The `-w` option (`--word-regexp`) only matches the given pattern when it
+occurs as an entire word. That saves the user from creating complicated
+expressions for the same purpose (line breaks, tabs spaces, full stops etc. can
+all be used as a word boundary and must be considered accordingly).
+
+    $ grep -w 'I' test.txt
+    I use it to work with grep.
+
+Notice that the line containing the word "It" wasn't matched, because the
+pattern "I" isn't matched _as an entire word_ there.
+
+The `-x` option (`--line-regexp`) only matches the given pattern for entire
+lines, thus saving the user from surrounding the pattern manually with `^`
+(beginning of a line) and `$` (ending of a line). It makes the regular
+expression a bit smaller, doesn't really solve a problem in my opinion.
+
+    $ grep  '^This file is a test file.$'
+    This file is a test file.
+
+    $ grep -x 'This file is a test file.'
+    This file is a test file.
+
+The `-e` option (`--regexp`) can be used when matching multiple patterns, with
+one pattern after every `-e` flag:
+
+    $ grep -e 'file' -e 'work' test.txt
+    This file is a test file.
+    I use it to work with grep.
+
+The patterns are matched using _or_ logic: every line matches one or more
+patterns is displayed. This could also be written like this, using extended
+regular expressions (don't mix up `-e` and `-E`):
+
+    $ grep -E '(file|work)' test.txt
+    This file is a test file.
+    I use it to work with grep.
+
+An _and_ logic can be implemented when piping multiple `grep` calls, applying
+them as a filter. Here's `test2.txt`:
+
+    a b
+    b c
+    c a
+
+Let's first match all lines containing the letter _a_, then all lines
+containing
+the letter _b_. Afterwards, let's match only the lines that _both_ contain the
+latter _a_ and the letter _b_:
+
+    $ grep 'a' test2.txt
+    a b
+    c a
+
+    $ grep 'c' test2.txt
+    b c
+    c a
+
+    $ grep 'a' test2.txt | grep 'c'
+    c a
+
+When using expressions that are tedious to type afresh every time, the `-f`
+option (`--file`) option might come in handy. All the patterns to be matched
+(in
+the aforementioned _or_ logic) can be put inside a file (`patterns.txt`) and
+then be re-used:
+
+    $ cat &gt; patterns.txt
+    file
+    work
+
+    $ grep -f patterns.txt test.txt
+    This file is a test file.
+    I use it to work with grep.
+
+This has exactly the same effect as:
+
+    $ grep -e 'file' -e 'work' test.txt
+
+Those are all the `grep` options [I wanted to get to know](#009) in December. I
+am not an expert with `grep` yet, but now I feel fairly comfortable when using
+it. This is a solid foundation for working more intensively with regular
+expressions.
+</pre>
+]]></description>
+</item>
+<item>
+<pubDate>Sun, 25 Dec 2016 00:00:00 +0100</pubDate>
+<title>012: The Last Thing Before Sleep</title>
+<link>https://patrickbucher.github.io/starting-over/#012</link>
+<guid>https://patrickbucher.github.io/starting-over/#012</guid>
+<description><![CDATA[
+<pre>
+## 012: The Last Thing Before Sleep
+
+Two nights ago, something strange happened.
+
+I was reading _Homo Faber_ from Max Frisch. _Walter Faber_, the hero of that
+short novel, met _Elisabeth_ on a ship from New York to France. Hi didn't know
+that she was his daughter, he didn't even know that he had a daughter, because
+he thought _Hanna_, his former girlfriend, had an abortion.
+
+Walter Faber and Elisabeth met again in Paris and then travelled together to
+Rome. He wanted to marry her, but she neither denied nor accepted. They
+continued their journey to Athens, where Hanna, Elisabeth's mother, lives.
+
+When Walter was swimming and Elisabeth sleeping at the beach, a snake bit her.
+She also fell down and got severely hurt when landing, but Walter didn't really
+notice, because the snake bite seemed more important at that time.
+
+He managed to bring her to a hospital in Athens somehow, where he met
+again with
+Hanna. Elisabeth died on the next day, but not from the snake bite, but
+from her
+neck injury.
+
+I closed the book and quickly fell to sleep. After a couple of hours, I woke up
+and suddenly some thoughts about _Homo Faber_ came to my mind:
+
+- The whole book seems to be about the antagonism between heart and mind;
+  between feelings and thoughts. Walter Faber is the engineer, the thinker;
+  Hanna--and Ivy and Elisabeth--are rather artists and feelers. Walter was
+  taking care of the snake bite close to Elisabeth's heart, but didn't
+  notice her
+  injury next to hear brain. The snake bite wasn't dangerous at all. Something
+  (it might be love) made Walter act in irrational ways, which marks his
+  transition from thinking to feeling, at least in this situation. He no longer
+  lives up to his higly rational standards.
+- Elisabeth had three little wounds from the snake bite. Not two, not four.
+  Snakes have two long poisonous teeth on the upper jaw and two shorter
+  counterparts on the lower jaw. Why three wounds? It's hardly a co-incidence,
+  I
+  think it stands as a symbol for the deadly reunion of the three, which
+  was not
+  supposed to happen.
+
+I didn't care that much for _Homo Faber_ up to then. But after that episode, I
+was thinking about the novel very intensively. Hadn't I read that important
+part
+of the book directly before falling asleep, I might not have really cared about
+it either.
+
+This should teach me a lesson: It's not only important to work intensely and
+focused on something, it is just as important to give the brain some rest
+afterwards. And sleeping is by far the best way of resting for the brain.
+Resting doesn't mean doing nothing, it means: don't occupy the brain with
+external stimuli, but let it work on the information it already has.
+
+I already _knew_ that, of course, but now I really _felt_ it.
+</pre>
+]]></description>
+</item>
+<item>
+<pubDate>Thu, 22 Dec 2016 00:00:00 +0100</pubDate>
+<title>011: Being Realistic</title>
+<link>https://patrickbucher.github.io/starting-over/#011</link>
+<guid>https://patrickbucher.github.io/starting-over/#011</guid>
+<description><![CDATA[
+<pre>
+## 011: Being Realistic
+
+The title of the aforementioned book _Learn git in a Month of Lunches_ made me
+think. Half a year might not be the proper duration for every project,
+one month
+might be enough for some.
+
+So I thought to assign January 2017 to that book. But there's a problem: In
+January I have my term exams, and I'll have to learn for those, which
+will leave
+little time for own projects. Having one relatively unproductive month is not
+that much of a problem when you have six of them for one project.  It is,
+however, when you only have one.
+
+I'm thinking of focusing entirely on the term exams in January. The last
+exam will be exactly on January 31st. However, after the math exam, there won't
+be that much to prepare. And I'm not willing to invest all of my time in
+learning for the exams, because there are some topics I'm not remotely
+interested in. Here I'm going to be pragmatic: I'll learn what I need to pass
+the exams safely, but I don't strive for excellency.
+
+Instead of working on certain additional projects in January, I just could work
+on my habits, so that I'll be in a better mental shape in February for upcoming
+projects. I could try to:
+
+- sleep for eight or more hours every night by trying to get to bed at 10
+  o'clock p.m.
+- get up early (if I manage to go to sleep early)
+- walk for at least one hour a day (I'm already doing on the days I'm going
+  to university, which I don't have to do in January.)
+- not buying things I don't need (more books, new electronic devices,
+  superfluous groceries)
+
+This will leave me more relaxed and, hopefully, I'll be able to learn in a more
+focused way.
+
+PS: I've been reading another third of _Homo Faber_, but didn't work with
+`grep`
+and my Russian flash cards.
+</pre>
+]]></description>
+</item>
+<item>
+<pubDate>Thu, 15 Dec 2016 00:00:00 +0100</pubDate>
+<title>010: For How Long?</title>
+<link>https://patrickbucher.github.io/starting-over/#010</link>
+<guid>https://patrickbucher.github.io/starting-over/#010</guid>
+<description><![CDATA[
+<pre>
+## 010: For How Long?
+
+In my [initial post](#001), I had the idea to assign half a year to the things
+I want to do in each of the three areas I care about the most (literature,
+programming and Russian). Sticking to one thing already proved to be hard
+for one month--even for the first two weeks I tried to stick to it so far.
+
+- Literature: I've been reading parts of _Homo Faber_ and nothing else.
+- Programming: I got to learn the `grep` command with its modes and some of
+its flags. But I worked much more with `sed` and `awk`, which of course also
+helped me to understand regular expressions and hence the usage of `grep`
+better. But I didn't invest much time in playing around with `grep`.
+- Russian: I've been working with flash cards. I didn't put in a lot of effort.
+
+In literature and Russian, I was focused insofar that I didn't tackle
+other books or topics. This is probably due to the fact that I have a lot
+of other things going on for my studies at the moment. In programming,
+I wasn't really focused.
+
+I thought to tackle regular expressions from January to June 2017. Now I'm
+thinking about Go, `git` and Java 8 again. Not touching any of those for
+six months will be quite hard.
+
+After my first month, the [prelude](#002), I should consider the time frame
+for the next block. Doubling the length might be a good idea. Or adding one
+month at a time. Or maybe I should re-consider the time frame for the next
+block during the preceding block. I might even have to put one or two buffer
+weeks in between to review the last and plan the next block.
+
+I recently ordered the book [Learn git in a Month of
+Lunches](https://www.manning.com/books/learn-git-in-a-month-of-lunches).
+Working through--not just reading--one chapter should take one hour, the
+author says. Since I already have some experience with `git`, it might take
+even less time, at least at the beginning.
+
+I think it's OK to consider different time frames for my upcoming
+projects. It's only important to stick to those plans afterwards. Half a year
+to read one book might be too long for some books (say, _Homo Faber_), and
+too short for others (say, Gibbon's _Decline and Fall of the Roman Empire_).
+
+In December, I'll be both thinking about _what_ projects I'm going to tackle
+first in 2017, but also _how much time_ I'm going to assign to those.
+</pre>
+]]></description>
+</item>
+<item>
+<pubDate>Sun, 11 Dec 2016 00:00:00 +0100</pubDate>
+<title>009: In the Midst of the Prelude</title>
+<link>https://patrickbucher.github.io/starting-over/#009</link>
+<guid>https://patrickbucher.github.io/starting-over/#009</guid>
+<description><![CDATA[
+<pre>
+## 009: In the Midst of the Prelude
+
+As I've already written, the last month of 2016 is supposed to be some kind
+of a [prelude](#002) for the new way I'm going to work on my projects. How
+is it going so far?
+
+### Literature: _Homo Faber_ by Max Frisch
+
+I haven't been reading that much for the last two weeks. I'm now on page 64
+(of 202), so I need to read a bit more.
+
+_Homo Faber_ is subtitled as a report. _Walter Faber_, who works as
+an Engineer, tells the story of his life. Travelling in the Americas,
+many unexpected things happen to him. He gets seated next to _Herbert_,
+the brother of his old friend _Joachim_, in an airplane. On their flight to
+Mexico, an engine breaks down and they need to do an emergency landing in
+the desert of Mexico.
+
+During their stay in the desert, Walter and Joachim get to know each other.
+Herbert wants to travel to his brother Joachim, who owns and operates a tobacco
+plantation in Guatemala. Walter decides to join Herbert. After a long journey,
+they discover that Joachim had hung himself.
+
+Walter Faber also reports on the relationship he had to Hanna, a half-jew,
+in the early 1930s. She got pregnant, but didn't want to marry him. He
+thought that she will have an abortion.
+
+Now Walter Faber is in a relationship with _Ivy_, but wants to give up their
+common apartment in New York.
+
+(I really had trouble writing about the first 64 pages, and I also had to
+look up some of the details. This is exactly how I should _not_ be reading. If
+I'd read _well_ so far, I'd be remembering everything know.)
+
+### Programming: the `grep` Command
+
+Honestly, I didn't work with `grep` that much as I wanted to. I'm now aware
+about its [different matchers](#004) and the `-l` flag. However, I discovered
+that knowing those modes is also helpful for other tools, such as `sed`,
+which uses basic regular expressions by default, but is also capable of
+using extended regular expressions when invoked with the `-r` flag.
+
+Regular expressions have to be learned as a fundamental concept (of UNIX),
+not just as some syntax used in many (UNIX) utilities. This discovery is
+more valuable than knowing every arcane flag of the `grep` command.
+
+However, there are some more flags I really need to know in order to work
+effectively and efficiently with `grep`, such as:
+
+- `-c` to count matches,
+- `-e` to work with multiple patterns,
+- `-f` to work with entire files containing patterns,
+- `-h` and `-H` to add or omit the filename for each match,
+- `-i` for case-_in_sensitive matching,
+- `-n` to prefix matching lines with a number,
+- `-o` to only output the matching part,
+- `-r` to process a directory (containing text files) recursively,
+- `-v` to invert the sense of matching,
+- `-w` and `-x` to only match whole words or lines.
+
+For the other flags listed by the `grep` man page, I don't see any use at
+the moment, so I'm going to leave those away. For the rest of this month,
+I'll get to know the ones listed above.
+
+### Russian: Aspect Pairs of the 50 Most Common Russian Verbs
+
+I've found a [frequency
+list](http://masterrussian.com/vocabulary/common_verbs.htm) of the most common
+Russian verbs. I've written down the first 50 of them to flash cards in their
+aspect pairs. Then I've written their German translation (or translations)
+on the other side.
+
+When learning with those flash cards, I was able to translate around two
+thirds of them the first time, so I can focus on the other third for the next
+two weeks. At the end of the month, I can put the stack of those fifty cards
+back together and learn them all at once, which should not take too much time.
+
+I'm going to use those cards also next year when I'm learning verb conjugations
+in a more systematic manner. I hope that using those 50 verbs, all categories
+and groups are already covered.
+
+### Summary
+
+I've already achieved a lot, and it didn't seem to be hard work at any
+time. The most important thing is that I've been working on this page a
+lot. I have already written productive code in `sed` and `awk`, which I
+didn't do anytime before.
+
+On the down side, I really have to read in a more focused manner. Or maybe
+I have to read everything twice in order to make it stick.
+</pre>
+]]></description>
+</item>
+<item>
+<pubDate>Wed, 7 Dec 2016 00:00:00 +0100</pubDate>
+<title>008: RSS Feed</title>
+<link>https://patrickbucher.github.io/starting-over/#008</link>
+<guid>https://patrickbucher.github.io/starting-over/#008</guid>
+<description><![CDATA[
+<pre>
+## 008: RSS Feed
+
+As my friend [meillo](http://marmaro.de) suggested, I introduced an [RSS
+feed](https://patrickbucher.github.io/starting-over/feed.rss). I wasn't
+very motivated to do that in the first place, because RSS is XML, after
+all. But, nonetheless, I did the first step and implemented [links to
+individual articles](#005) a couple of days ago, so that I could use them
+in the feed. First, I thought that Python (and some XML or RSS library)
+rather than `awk` would be the proper tool for the task. But then I thought
+how it could be done using `awk`, and I did so in combination with `bash`.
+
+First, let's have look at the big picture, the `rss.sh` script, that is:
+
+    #!/bin/bash
+    rm -f feed.rss
+    awk -F '=' -f awk/rss-header.awk meta.txt &gt; feed.rss
+    ls articles/*.md | sort -r | while read md_file; do
+        awk -f awk/rss-body.awk $md_file &gt;&gt; feed.rss
+    done
+    echo -e "&lt;/channel&gt;\n&lt;/rss&gt;" &gt;&gt; feed.rss
+
+This script creates (but first deletes) a file called `feed.rss`, the actual
+RSS feed. It does so in three steps:
+
+1. It creates the header based on the file `meta.txt`, then
+2. it iterates over all articles and creates an item for each of them,
+3. and it adds a footer using the `echo` command.
+
+The file `meta.txt` contains metadata and looks as follows:
+
+    title=Starting Over
+    url=https://patrickbucher.github.io/starting-over/
+    description=Let’s make some progress again.
+    language=en
+    author=Patrick Bucher, patrick.bucher87@gmail.com
+
+These are simple key-value pairs, separated by an equals sign. The
+`rss-header.awk` script is called, setting the `-F` parameter to the equals
+sign, so that the key goes into variable `$1` and the value into variable
+`$2`. Here's the full script `rss-header.awk`:
+
+    BEGIN {
+        print "&lt;?xml version=\"1.0\" encoding=\"utf-8\"?&gt;"
+        print "&lt;rss version=\"2.0\"
+        xmlns:atom=\"http://www.w3.org/2005/Atom\"&gt;"
+        print "&lt;channel&gt;"
+        printf "&lt;atom:link
+        href=\"https://patrickbucher.github.io/starting-over/feed.rss\" "
+        print "rel=\"self\" type=\"application/rss+xml\" /&gt;"
+    }
+    /^title=/ {
+        print "&lt;title&gt;" $2 "&lt;/title&gt;"
+    }
+    /^url=/ {
+        print "&lt;link&gt;" $2 "&lt;/link&gt;"
+    }
+    /^description=/ {
+        print "&lt;description&gt;" $2 "&lt;/description&gt;"
+    }
+    /^language=/ {
+        print "&lt;language&gt;" $2 "&lt;/language&gt;"
+    }
+    /^author=/ {
+        print "&lt;copyright&gt;" $2 "&lt;/copyright&gt;"
+    }
+    END {
+        print "&lt;pubDate&gt;" strftime("%a, %d %b %Y %H:%M:%S %z") "&lt;/pubDate&gt;"
+    }
+
+At the beginning, the RSS header (with an optional but recommended
+atom link) is created. Then, for every match of a meta variable (title,
+url, description, language and author) a header tag is created (title,
+link, description, language and copyright). Furthermore, the current
+date and time is added as the pubDate tag using [RFC-822 date-time
+format](http://www.feedvalidator.org/docs/error/InvalidRFC2822Date.html).
+
+The `rss-body.awk` script is invoked once for every article. It generates one
+`&lt;item&gt;` for every article, which is opened in `BEGIN` and closed in `END`:
+
+    BEGIN {
+        print "&lt;item&gt;"
+    }
+    END {
+        print "&lt;/item&gt;"
+    }
+
+The main title is matched with two leading number signs (`##`), which are cut
+off for the `&lt;title&gt;` tag using the `gensub()` function. For both `&lt;url&gt;`
+and `&lt;guid&gt;` the URL to the individual article is used. The article number
+has to be extracted for that purpose, which is done using the `substr()`
+function. Here's the whole function:
+
+    /^## / {
+        $0 = gensub(/^## (.+)/, "\\1", "1");
+        print "&lt;title&gt;" $0 "&lt;/title&gt;"
+
+        $1 = substr($1, 0, 3); # 001: -&gt; 001
+        url = "https://patrickbucher.github.io/starting-over/#" $1
+        print "&lt;link&gt;" url "&lt;/link&gt;"
+
+        print "&lt;guid&gt;" url "&lt;/guid&gt;"
+    }
+
+Just like the `&lt;pubDate&gt;` field in the header, the `&lt;pubDate&gt;` field for
+individual also requires the RFC-822 format. Unfortunately, I write the
+publication dates like this: "Wednesday, December 7th 2016". So this date
+string needs to be converted accordingly. Since I don't indicate a time, I
+have to make it up and just picked midnight, so that the channel's `pubDate`
+will always be later than every individual article's `pubDate`.
+
+Weekday and month are easy to handle, I just have to cut off the first three
+characters with `substr()`. The month's day can easily be matched with one
+or more digits, followed by two letters using `gensub()`. As mentioned,
+the time is made up using CET, which is GMT +1 hour. Here's the full function:
+
+    /^#### / {
+        weekday = $2
+        month = $3
+        monthday = $4
+        year = $5
+
+        printf "&lt;pubDate&gt;"
+        printf substr(weekday, 0, 3) ", " # Monday, -&gt; Mon,
+        printf gensub(/([[:digit:]]+)[[:alpha:]]{2}/, "\\1", "1", monthday)
+        " " # 4th -&gt; 4
+        printf substr(month, 0, 3) " " # January -&gt; Jan
+        printf year " "
+        printf "00:00:00 +0100"
+        print "&lt;/pubDate&gt;"
+    }
+
+The `&lt;description&gt;` has to be wrapped in a `CDATA` section. Since I don't
+want to put the whole article inside it, but just the first paragraph, I call
+`exit` to stop processing matching lines--those starting with one or many
+alphanumeric characters:
+
+    /^[[:alpha:]]+/ {
+        print "&lt;description&gt;&lt;![CDATA[" $0 " …]]&gt;&lt;/description&gt;"
+        exit
+    }
+
+Of course I also have to call the `rss.sh` script from `generate.sh`, so
+that the Website and the RSS feed always represent the same content.
+</pre>
+]]></description>
+</item>
+<item>
+<pubDate>Tue, 6 Dec 2016 00:00:00 +0100</pubDate>
+<title>007: Tiny little improvements</title>
+<link>https://patrickbucher.github.io/starting-over/#007</link>
+<guid>https://patrickbucher.github.io/starting-over/#007</guid>
+<description><![CDATA[
+<pre>
+## 007: Tiny little improvements
+
+Today, I did a couple of tiny little improvements. The `awk` script I've
+written yesterday had some minor problems. I did use `sub` rather than `gsub`
+to perform the replacements of three full stops with an ellipsis and two
+hyphens with an n-dash. So only the first occurrence per line was replaced.
+
+I also switched from n-dashes to m-dashes. The latter must not be surrounded
+by spaces. I decided to replace the three existing occurrences manually. I
+used this command to find all the occurrences:
+
+    grep -l ' -- ' articles/*.md
+
+The parameter `-l` displays the files for which the pattern matches, rather
+than the matching lines.
+
+I also discovered a minor glitch in the version I used before. In article
+[004: grep Matchers](#004), I've written down some long form parameters,
+such as `--basic-regexp` and `--extended-regexp`. Those two hyphens had been
+replaced with a dash, which clearly doesn't work in the shell. So I had to
+extend my `typography.awk` script even further, so that it only replaces
+two hyphens between alphanumeric characters (now with an _m_-dash). Here's
+how the modified lines look like now:
+
+    !/^([[:space:]]+|####)/ {
+        # quote replacements omitted
+        gsub(/\.\.\./, "…");
+        $0 = gensub(/([[:alnum:]]+)--([[:alnum:]]+)/, "\\1—\\2", "g");
+        print;
+    }
+
+I also discovered that the `sed` supports extended regular expressions by
+invoking it with the option `-r`. Doing so makes the `add_link.sed` script
+a bit more readable, because parentheses to capture groups and quantifiers
+no longer need to be escaped. Here's the new version:
+
+    s/&lt;h2&gt;([[:digit:]]+):/\
+    &lt;h2 id="\1"&gt;\
+    &lt;a href="https:\/\/patrickbucher.github.io\
+    \/starting-over\/index.html#\1"&gt;\1&lt;\/a&gt;:/
+
+These are tiny little improvements, after all, but as I said: getting ahead
+with tiny little baby steps is still better than being totally stuck.
+</pre>
+]]></description>
+</item>
+<item>
+<pubDate>Mon, 5 Dec 2016 00:00:00 +0100</pubDate>
+<title>006: Introducing awk</title>
+<link>https://patrickbucher.github.io/starting-over/#006</link>
+<guid>https://patrickbucher.github.io/starting-over/#006</guid>
+<description><![CDATA[
+<pre>
+## 006: Introducing awk
+
+The `sed` script `smart_quotes.sed` had a major flaw. It didn't distinguish
+between text lines and code lines. So quotes and double quotes have also
+been replaced inside code blocks, which messed up their semantics. I didn't
+manage to fix the problem using `sed`, so I did what most people would do
+in that situation: use `awk` instead.
+
+`markdown` has an easy syntax for code blocks: just indent the line. I do
+so by four spaces. So the `awk` script could just ignore indented lines and
+print them as they are:
+
+    /^[[:space:]]+/ {
+        print;
+    }
+
+A line starting with one or more spaces is simply printed out as it is. The
+other lines can be captured as follows:
+
+    !/^[[:space:]]+/ {
+        # do typographical replacements
+    }
+
+This is simply the same pattern, but inverted by using an exclamation
+mark. The following replacements must be done: First, straight double and
+single quotes must be replaced with their typographically correct counterparts:
+
+    sub(/^"/, "“");
+    $0 = gensub(/([[:space:]]+)"/, "\\1“", "g");
+    gsub(/"/, "”");
+
+The first line replaces a double quote right after the beginning of the line
+with an opening double quote using the `sub()` function. The second line
+replaces all double quotes that come after one or many space characters,
+also with an opening quote. Those space characters are captured in a group
+and retained in the output by using the back reference `\\1`. The global flag
+`g` is also passed to make sure that not only one, but all occurrences are
+replaced. I had to use the `gensub()` function here, which supports back
+references. It doesn't modify the line variable `$0`, but returns the result
+of the replacement for manual assignment. All the remaining double quotes
+must be replaced by closing double quotes. For this purpose, the `gsub()`
+function is called, which works like `sub()` but globally, i.e. handles many
+occurrences. (This would be pointless for the first substitution, because
+it only replaces the double quote right after the beginning of the line,
+and a line begins only once.)
+
+The same is done for single quotes:
+
+    sub(/^'/, "‘");
+    $0 = gensub(/([[:space:]]+)'/, "\\1‘", "g");
+    gsub(/'/, "’");
+
+Furthermore, three full stops have to be replaced with an ellipsis, and two
+hyphens with an n-dash. (I have to consider using m-dashes without surrounding
+spaces instead, this page is written in English, after all...) At the end of
+the function, the line is printed using the `print` function. If no parameter
+is passed, it prints the content of the variable `$0`, which contains the
+whole line.
+
+    sub(/\.\.\./, "…");
+    sub(/--/, "‒");
+    print;
+
+As I've written before, the ordinal numbers in the dates should be displayed
+properly; i.e. "December 5&lt;sup&gt;th&lt;/sup&gt;" (using superscript) rather than
+"December 5th". The following `awk` function handles this:
+
+    /^####/ {
+        $0 = gensub(/([[:digit:]]{1,2})([[:alpha:]]{2})/, "\\1&lt;sup&gt;\\2&lt;/sup&gt;",
+        "1");
+        print;
+    }
+
+I use `&lt;h4&gt;` headlines for the date indications, which are indicated as
+`####` in `markdown`. The part to be put inside of `&lt;sup&gt;&lt;/sup&gt;` only
+consists of the two letters following a one- or two-digit number, it is
+captured in the second group and printed using the second back references
+(`\\2`). Since only one occurrence has to be replaced--there _is_ only one
+possible occurrence--the quantity `1` rather than the flag `g` has been used.
+
+Now we run into the problem that the line containing the date indication
+is processed twice: Firstly, by the function matching for pound characters;
+and, secondly, by the function matching anything _not_ starting with white
+space. So we have to exclude the date indications from the other function:
+
+    !/^([[:space:]]+|####)/ {
+        # typographical replacements
+    }
+
+Now that function matches any line _not_ starting with one or many spaces
+or four pound characters.
+
+Here's the `typography.awk` script in full:
+
+    /^[[:space:]]+/ {
+        print;
+    }
+
+    !/^([[:space:]]+|####)/ {
+        sub(/^"/, "“");
+        $0 = gensub(/([[:space:]]+)"/, "\\1“", "g");
+        gsub(/"/, "”");
+        sub(/^'/, "‘");
+        $0 = gensub(/([[:space:]]+)'/, "\\1‘", "g");
+        gsub(/'/, "’");
+        sub(/\.\.\./, "…");
+        sub(/--/, "‒");
+        print;
+    }
+
+    /^####/ {
+        $0 = gensub(/([[:digit:]]{1,2})([[:alpha:]]{2})/, "\\1&lt;sup&gt;\\2&lt;/sup&gt;",
+        "1");
+        print;
+    }
+
+The `generate.sh` script also needed some modifications: The typographic
+operations are now performed _before_ `markdown` converted the article to HTML:
+
+    #!/bin/bash
+
+    PAGE=index.html
+
+    cat html/header.html &gt; $PAGE
+    ls articles/*.md | sort -r | while read md_file; do
+        echo '&lt;article&gt;' &gt;&gt; $PAGE
+        awk -f 'awk/typography.awk' $md_file | markdown \
+            | sed '/^\s*$/d' | sed -f 'sed/add_link.sed' &gt;&gt; $PAGE
+        echo '&lt;/article&gt;' &gt;&gt; $PAGE
+    done
+    cat html/footer.html &gt;&gt; $PAGE
+
+Maybe the `add_link.sed` script would be easier in `awk`, too? At least I'll
+be coding again when trying!
+</pre>
+]]></description>
+</item>
+<item>
+<pubDate>Sun, 4 Dec 2016 00:00:00 +0100</pubDate>
+<title>005: Automatically Link to Individual Articles</title>
+<link>https://patrickbucher.github.io/starting-over/#005</link>
+<guid>https://patrickbucher.github.io/starting-over/#005</guid>
+<description><![CDATA[
+<pre>
+## 005: Automatically Link to Individual Articles
+
+In order to link to a specific article on this page, rather than just to
+this page as a whole, I implemented a `sed` script. It is executed after the
+transformation from `markdown` to HTML has taken place. Here's how the script
+`add_link.sed` looks like:
+
+    s/&lt;h2&gt;\([[:digit:]]\+\):/\
+    &lt;h2 id="\1"&gt;\
+    &lt;a href="https:\/\/patrickbucher.github.io\
+    \/starting-over\/index.html#\1"&gt;\1&lt;\/a&gt;:/
+
+Let's break it apart. The script consists of a single substitute command,
+which looks like this:
+
+    s/regex/replacement/flags
+
+There are four parts divided by slashes. The initial `s` stands for
+"substitute". The first expression `regex` is a regular expression to be
+searched for in the input. The second expression `replacement` defines the
+value the matched regular expression is to be replaced with. At the end,
+`flags` could be provided.
+
+It's not that easy to distinguish those parts in the command above, because
+it contains additional (escaped) slashes, and the parts heavily vary in
+size. (The command also has been spread over four lines; a line does not
+correspond to the parts mentioned, however.) Here's the regular expression:
+
+    &lt;h2&gt;\([[:digit:]]\+\):
+
+This expression looks rather cryptic, but its meaning becomes clear, when
+one looks at a sample input line to be matched:
+
+    &lt;h2&gt;004: grep Matchers&lt;/h2&gt;
+
+We have a level two headline (`&lt;h2&gt;`) consisting of a number and a textual
+description, separated by a colon and a space. Only the leading number, rather
+than the whole title, should be converted to a hyperlink. Unsurprisingly,
+the expression starts by matching `&lt;h2&gt;`. `[[:digit:]]` matches _one_
+digit; with the `+` quantifier added, it matches _one or many_ digits. In
+order to be interpreted as a meta character, rather than literally, the `+`
+modifier needs to be escaped by a leading backslash. Matching _one or many_
+digits thus becomes: `[[:digit:]]\+`.
+
+The matched digits will be used for three purposes in the output:
+
+1. As an anchor to identify the title,
+2. as a part of the hyperlink
+3. and as the text shown for the hyperlink.
+
+Therefore, the matched digits are captured inside a _group_ using parentheses:
+`([[:digit:]]\+)`. Those parentheses must be interpreted as meta characters,
+rather than literally, so they need to be escaped, too: `\([[:digit:]]\+\)`.
+
+Before dissecting the replacement expression, let's take a look at the
+intended output:
+
+    &lt;h2 id="004"&gt;
+    &lt;a href="https://patrickbucher.github.io/starting-over/index.html#004"&gt;
+    004&lt;/a&gt;: grep Matchers&lt;/h2&gt;
+
+(The title had to be spread over four lines because it would not fit
+horizontally on this page.) Most of the output is also contained in the
+`sed` replacement expressions. The article number, which is used three times
+as described above, is included with a back reference to the first group
+matched `\1` (there's only one matched group in this example). Furthermore,
+line breaks and slashes (such as in `http://` and `&lt;/a&gt;`) had to be escaped
+using backslashes (resulting in `http:\/\/` and `&lt;\/a&gt;`), leading to this
+somewhat convoluted replacement expression:
+
+    &lt;h2 id="\1"&gt;\
+    &lt;a href="https:\/\/patrickbucher.github.io\
+    \/starting-over\/index.html#\1"&gt;\1&lt;\/a&gt;:
+
+The `sed` command is ended by a slash, no flags have been used.
+
+PS: For the date indications on top of every article, I should consider
+using superscript for the ordinal numbers, such as _December 4&lt;sup&gt;th&lt;/sup&gt;_
+rather than _December 4th_. A lot of small scripting tasks come along,
+when one starts writing a fully automated diary or blog, which is exactly
+the purpose of _Starting Over_.
+</pre>
+]]></description>
+</item>
+<item>
+<pubDate>Fri, 2 Dec 2016 00:00:00 +0100</pubDate>
+<title>004: grep Matchers</title>
+<link>https://patrickbucher.github.io/starting-over/#004</link>
+<guid>https://patrickbucher.github.io/starting-over/#004</guid>
+<description><![CDATA[
+<pre>
+## 004: grep Matchers
+
+The GNU version of `grep` offers four different matchers:
+
+1. Fixed strings (`grep -F, --fixed-strings`): There are no meta characters
+in this mode, every character is interpreted literally.
+2. Basic regular expressions (BRE, `grep -G, --basic-regexp`): This
+is the default mode of `grep`: Meta characters need to be escaped using
+backslashes. `a{1,2}` would be interpreted literally as the string `a{1,2}`,
+while `a\{1,2\}` stands for _one or two small letters 'a'_.
+3. Extended regular expressions (ERE, `grep -E, --extended-regexp`): This is
+the default mode of `egrep`: Meta characters, such as those in quantifiers,
+don't need to be escaped. There are also shortcuts for some commonly used
+quantifiers `?` (zero or one, instead of `{0,1}`), `*` (zero, one or many;
+instead of `{0,}`) and `+` (one or more; instead of `{1,}`).
+4. Perl-compatible regular expressions (PCRE, `grep -P, --perl-regexp`):
+This one offers the most powerful features, but many features are
+experimental. Therefore I won't be using them ‒ unless I program in Perl.
+
+I'm mostly interested in extended regular expressions, because they are
+more powerful (and easier to write) than basic regular expressions. Fixed
+strings might come in handy once in a while, for example when searching for
+strings containing meta characters such as `^` (beginning of a line) and `$`
+(end of a line).
+
+    $ cat &gt; script.sh
+    sed 's/^hello$/hi/g'
+    $ grep -F '^hello$' script.sh
+    sed 's/^hello$/hi/g'
+
+If I'd use basic or extended regular expressions here, the caret and the
+dollar sign needed to be escaped in order to match the same line:
+
+    $ grep -G '\^hello\$' script.sh
+    sed 's/^hello$/hi/g'
+
+Not escaping the caret and the dollar sign would not match any line, because
+it would be interpreted as a line beginning or ending, respectively.
+
+    $ grep -G $foo script.sh
+
+`grep -G` might come in handier than `grep -E` for the same reason: when
+searching for literal characters braces, for example, which needed to be
+escaped using extended regular expressions.
+</pre>
+]]></description>
+</item>
+<item>
+<pubDate>Wed, 30 Nov 2016 00:00:00 +0100</pubDate>
+<title>003: This Page</title>
+<link>https://patrickbucher.github.io/starting-over/#003</link>
+<guid>https://patrickbucher.github.io/starting-over/#003</guid>
+<description><![CDATA[
+<pre>
+## 003: This Page
+
+This page is static HTML generated by a shell script called `generate.sh`.
+
+    #!/bin/bash
+
+    PAGE=index.html
+
+    cat header.html &gt; $PAGE
+    ls *.md | sort -r | while read md_file; do
+        echo '&lt;article&gt;' &gt;&gt; $PAGE
+        sed -f smart_quotes.sed &lt; $md_file | markdown | sed '/^\s*$/d' &gt;&gt; $PAGE
+        echo '&lt;/article&gt;' &gt;&gt; $PAGE
+    done
+    cat footer.html &gt;&gt; $PAGE
+
+First, a static header file (`header.html`) is written into `index.html`.
+
+Then the script iterates over all articles, which I write in `markdown`
+files named from `001.md` to `999.md` (I might have to do some refactoring
+during the next three years...). It does so in reverse order, so that the
+newest entry is always on top. Every markdown file is first processed by a
+`sed` script `smart_quotes.sed`. It replaces straight quotes with nicer quote
+characters, two hyphens with a dash and three full stops with an ellipsis.
+
+Every article is converted to HTML using `markdown` and included into the
+`index.html` file inside an `&lt;article&gt;` tag. Empty lines are removed with
+`sed`.
+
+At the end, the content from `footer.html` is included into `index.html`. And
+after the page has been generated, I put it online using `git`.
+
+Other people use so-called "web frameworks" for such tasks.
+</pre>
+]]></description>
+</item>
+<item>
+<pubDate>Tue, 29 Nov 2016 00:00:00 +0100</pubDate>
+<title>002: Prelude</title>
+<link>https://patrickbucher.github.io/starting-over/#002</link>
+<guid>https://patrickbucher.github.io/starting-over/#002</guid>
+<description><![CDATA[
+<pre>
+## 002: Prelude
+
+I have to pick three projects for the first six months of 2017. I'm not
+sure yet what I'm going to pick, but there are some things that attract me
+at the moment:
+
+- Literature: _Walden_, by Henry David Thoreau
+- Programming: Regular Expressions
+- Russian: verb conjugations
+
+Until I'm going to start on those, there's still an entire month. But I can't
+just sit and wait and see how my motivation will be faded away by then by doing
+nothing. So I'm going to do a little one-month prelude, doing the following:
+
+- Literature: read _Homo Faber_ by Max Frisch
+- Programming: get to know the `grep`-command and its options
+- Russian: learn the infinitive aspect pairs of the most common 50 Russian
+verbs
+
+If I don't manage to do that, I also won't manage to do the "real thing"
+next year. So I have to get through with it. Let's get started...
+</pre>
+]]></description>
+</item>
+<item>
+<pubDate>Mon, 28 Nov 2016 00:00:00 +0100</pubDate>
+<title>001: Starting Over</title>
+<link>https://patrickbucher.github.io/starting-over/#001</link>
+<guid>https://patrickbucher.github.io/starting-over/#001</guid>
+<description><![CDATA[
+<pre>
+## 001: Starting Over
+
+I'm 29 and totally stuck. I don't get ahead with the things I care about and
+have tried to put some effort in during the last couple of years. Those are:
+
+- Literature
+- Programming
+- Russian
+
+This year, I quit my job and started studying computer science. I'm supposed
+to learn a lot about programming (and computers in general) during the next
+couple of years. But that won't be enough, or at least I won't learn that
+much about the subjects I'm really interested in. I didn't learn a lot at
+university during the first term. And I didn't have time to improve in the
+areas I really care about--or just squandered it mindlessly on YouTube.
+
+Now I have to change a couple of things.
+
+If I'd just focus on one thing per area at a time, and assign half a year to
+every thing, I might actually make some progress again. Those will be little
+baby steps, but at least the knowledge can sink in slowly, evenly and deeply.
+
+What are those _things_?
+
+- Literature: _The Iliad_, _The Odyssey_, _Anna Karenina_, _Brothers
+Karamazov_, _The Idiot_, _In Search of Lost Time_, _Walden_, etc.
+- Programming: Regular Expressions, `bash`, `sed`, `awk`, C, `git`, etc.
+- Russian: numerals, verbal aspects, verbs of motion, verb conjugations,
+faster touch typing, etc.
+
+What happens if I'd just pick one for, say, January to June 2017? Could I
+possibly stick to it?
+
+If I actually could, then I finally would make some progress again.
+</pre>
+]]></description>
+</item>
+</channel>
+</rss>
